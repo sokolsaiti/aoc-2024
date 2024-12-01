@@ -14,8 +14,8 @@ public class Day1 implements Puzzle {
     }
 
     private final String title = "Day 1";
-    private ArrayList<Integer> left = new ArrayList<>();
-    private ArrayList<Integer> right = new ArrayList<>();
+    private final ArrayList<Integer> left = new ArrayList<>();
+    private final ArrayList<Integer> right = new ArrayList<>();
     private Integer result1 = 0;
     private Integer result2 = 0;
 
