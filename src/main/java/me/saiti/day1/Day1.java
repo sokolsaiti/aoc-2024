@@ -1,4 +1,7 @@
-package me.saiti;
+package me.saiti.day1;
+
+import me.saiti.Puzzle;
+import me.saiti.Util;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,7 +13,7 @@ import java.util.Comparator;
 
 public class Day1 implements Puzzle {
     public String getTitle() {
-        return title;
+        return "Day 1";
     }
 
     private final String title = "Day 1";
